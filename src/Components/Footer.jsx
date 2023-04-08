@@ -10,11 +10,11 @@ const Footer = () => {
   return (
     <footer
       className="footer"
-      style={{ backgroundColor: THEME[theme].navbar.backgroundColor }}
+      style={{ backgroundColor: THEME[theme].footer.backgroundColor }}
     >
       <div className="footer-logoDH">
-        <p>Powered by</p>
-        <img src="/images/DH.png" alt="DH-logo" />
+        <p style={{ color: THEME[theme].footer.text }}>Powered by</p>
+        <img style={{ filter: THEME[theme].footer.logoDH }} src="/images/DH.png" alt="DH-logo" />
       </div>
       <div className="footer-logos">
         <img src="/images/ico-facebook.png" alt="Logo de Facebook" />

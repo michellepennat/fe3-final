@@ -8,7 +8,7 @@ const THEME = {
     },
     navbar: {
       backgroundColor: "rgb(129, 140, 248)",
-      titleColor: "black",
+      text: "black",
     },
     footer: {
       backgroundColor: "rgb(129, 140, 248)",
@@ -28,8 +28,8 @@ const THEME = {
     },
     footer: {
       backgroundColor: "rgb(2, 6, 23)",
-      titleColor: "white",
-      
+      text: "white",
+      logoDH: "brightness(1) invert(1)",
     },
   },
 };

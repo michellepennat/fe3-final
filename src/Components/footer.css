@@ -1,18 +1,30 @@
 .footer {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  padding: 15px;
   text-align: center;
   position: relative;
   bottom: 0;
-  width: 90%;
-  height: 40px;
+  width: 100%;
+  height: 100px;
+  margin-top: 40px;
 }
 
-.footer-logoDH > img{
-    width: 200px;
+.footer-logoDH {
+  align-items: center;
+  display: flex;
+  align-items: center;
+}
+.footer-logoDH > img {
+  width: 200px;
 }
 
-.footer-logoDH > p {
-  margin: 0;
-  padding-top: 0.7rem;
+.footer-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-logos > img {
+  width: 30px;
+  margin-left: 10px;
 }
