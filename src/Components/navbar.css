@@ -1,0 +1,33 @@
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  font-size: 20px;
+}
+
+.text-red {
+  color: rgb(202, 11, 11);
+}
+
+.text-name {
+  margin-left: 5px;
+}
+
+.logo h2 {
+  font-weight: 500;
+}
+
+.link {
+  margin-right: 10px;
+}
+

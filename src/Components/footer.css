@@ -1,0 +1,18 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 90%;
+  height: 40px;
+}
+
+.footer-logoDH > img{
+    width: 200px;
+}
+
+.footer-logoDH > p {
+  margin: 0;
+  padding-top: 0.7rem;
+}
