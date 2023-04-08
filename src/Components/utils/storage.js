@@ -4,7 +4,11 @@ class Storage {
   }
 
   get(key) {
-    localStorage.getItem(key);
+    const rawStorage = localStorage.getItem(key);
+    if (rawStorage !== "" && rawStorage) {
+      return JSON.parse(rawStorage);
+    }
+    return [];
   }
 }
 

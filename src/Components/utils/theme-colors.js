@@ -14,6 +14,10 @@ const THEME = {
       backgroundColor: "rgb(129, 140, 248)",
       text: "black",
     },
+    contact: {
+      backgroundColor: "white",
+      color: "black",
+    },
   },
   dark: {
     card: {
@@ -30,6 +34,10 @@ const THEME = {
       backgroundColor: "rgb(2, 6, 23)",
       text: "white",
       logoDH: "brightness(1) invert(1)",
+    },
+    contact: {
+      backgroundColor: "black",
+      color: "white",
     },
   },
 };

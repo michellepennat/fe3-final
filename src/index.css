@@ -12,13 +12,6 @@ code {
     monospace;
 }
 
-h1 {
-  text-align: center;
-  font-size: 32px;
-  font-weight: 700;
-  margin-block: 20px;
-}
-
 a {
   color: #000;
   text-decoration: none;
@@ -27,15 +20,6 @@ a {
 }
 a:hover {
   color: rgb(136, 136, 136);
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  width: 300px;
-  height: 100px;
-  margin: 0 auto;
 }
 
 .button {
